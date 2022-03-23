@@ -55,7 +55,7 @@ a {
 
 /* Links */
 a:hover {
-  color: goldenrod;
+  color: red;
   transition: 1s ease-in-out;
 }
 /* hero section */
@@ -94,14 +94,18 @@ a:hover {
 .read-btn {
   position: relative;
   margin-top: 1em;
-  border-radius: 5px;
-  padding: 8px;
+  border-radius: 15px;
+  padding: 12px 16px;
   font-size: 1em;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
 }
 
 .read-btn:hover {
   transition: 1s ease-in-out;
-  background-color: grey;
+  background-color: #ccc2a6;
   color: white;
   cursor: pointer;
 }
