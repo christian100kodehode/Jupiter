@@ -105,7 +105,7 @@ video {
   transition: 1s ease-in;
 }
 .read-btn:hover {
-  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background: linear-gradient(to bottom, #a50909c0 5%, #eae0c2fa 100%);
   background-color: #ccc2a6;
 }
 .read-btn:active {
