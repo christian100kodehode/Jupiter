@@ -181,6 +181,13 @@ video {
   background-color: #fff;
 }
 
+.dropdown1:hover .dropbtn {
+  background-color: #fff;
+}
+.dropdown2:hover .dropbtn {
+  background-color: #fff;
+}
+
 .mobile-menu-container {
   display: none;
 }
