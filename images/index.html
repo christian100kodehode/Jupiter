@@ -1,340 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="viewport" content="initial-scale=1.0, width=device-width , height=device-height">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <title>Responsive Website Design</title>
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
-  <style>
-    .wow:first-child {
-      visibility: hidden;
-    }
-  </style>
-</head>
-<body>
-  <!--Menu-->
-  <div class="menu">
-    <ul>
-      <li><a href="#" onclick="toggleMenu();">Home</a></li>
-      <li><a href="#uslugi" onclick="toggleMenu();">About</a></li>
-      <li><a href="#" onclick="toggleMenu();">Training</a></li>
-      <li><a href="#" onclick="toggleMenu();">Team</a></li>
-      <li><a href="#" onclick="toggleMenu();">Contact</a></li>
-    </ul>
-  </div>
-  <!--End Menu-->
-  <!--Hero-->
-  <section class="banner">
-    <header>
-      <h2 class="logo wow slideInLeft">David<span>Bredow</span></h2>
-      <div class="toggle" onclick="toggleMenu();"></div>
-    </header>
-    <video src="imgs/bg.mp4" autoplay muted loop type="mp4"></video>
-    <div class="overlay"></div>
-    <div class="text wow slideInLeft">
-      <h2>Be Stronger</h2>
-      <h3>Never give up</h3>
-      <p>Slutt å stoppe seg ! Hvis du ikke er fornøyd - gjør endringer nå.
-        Forbedre livskvaliteten din og være stolt av deg selv !
-      </p>
-      <a href="#">Join us</a>
-    </div>
-    <div class="imgbox"><img src="imgs/man.png" alt=""></div>
-    <ul class="sci">
-      <li><a href="#"><i class="icon fab fa-facebook fa-4x"></i></a></li>
-      <li><a href="#"><i class="icon fab fa-instagram fa-4x"></i></a></li>
-      
-    </ul>
-  </section>
-  <!--End Hero-->
-  <!--Quote-->
-  <div id="smarttext">
-      
-<div class="naglowek wow bounceInDown">
-            <h3>Tren hardt...</h3>
-          <h1>Tren klokt!</h1></div>
-  </div>
-  <!--End quote-->
-  <!--Services-->
-  <div class="services-naglowek">
-    <h1 class="wow fadeInDown">Services</h1>
-  </div>
-  <div class="services wow fadeInDown">
-    <div class="col">
-      <h2>Trening</h2>
-      <div class="caption">
-        <p class="c-trening">Hver av oss har sikkert hørt uttrykket "sport er helse" mange ganger i livet. Fysisk aktive mennesker oppfattes som sunne, spreke og villige til å leve.
-          Bli med dem!</p>
-      </div>
-      <img src="imgs/img1.png" alt="">
-    </div>
-    <div class="col">
-      <h2>Fizjo</h2>
-      <div class="caption">
-        <p class="c-fysio">Idrettsfysioterapi er en svært viktig faktor i arbeidet med en idrettsutøver. Alle aktiviteter er fokusert på treningsstøtte, optimalisering av idrettsprestasjoner, forbedring av regenerering etter trening og forberedelse til trening.</p>
-    </div>
-    <img src="imgs/img2.png" alt="">
-  </div>
-    <div class="col">
-      <h2>Dieta</h2>
-      <div class="caption">
-        <p class="c-dieta"> Kostholdet for en idrettsutøver bør fremfor alt være sunt og riktig balansert. Det bør være basert på høykvalitets, helst ferske produkter – det må ikke være plass til høyt bearbeidet mat, usunt fett eller sentralstimulerende midler.  </p>
-    </div>
-    <img src="imgs/img3.png" alt="">
-    </div>
-    
-  </div>
-  <!--End Services-->
-  <!--About-->
-  <section id="about">
-      <div class="about-me">
-          <img class="wow fadeInDown" data-wow-delay="0.4s" src="imgs/about4.jpg" alt="">
-        </div>
-          <div class="about-text wow fadeInUpBig" data-wow-delay="0.4s">
-          <h1>HEI!</h1>
-          <p>MITT NAVN ER <span>DAWID BREDOW.</span> JEG ER EN SERTIFISERT STYRKETRENER, NÆRINGSKAPER, PERSONLIG TRENER OG MASSASJER. BYGG FOR DET SIKKERSTE OG MEST EFFEKTIVE TRENINGS- OG NÆRINGSPROGRAMMET MULIG, OG FORSIKTIG AT DU HAR DEN HELT BESTE OPPLEVELSEN HVER GANG VI TRENER SAMMEN.</p>
-          <a class="button" href="#"><i class="fas fa-angle-right"></i> Read more</a>
-      </div>
-      </section>
-      <!--Trening for you-->
-      <section class="trening" id="trening">
-        <h2 class="trening-naglowek wow fadeInDown" data-wow-delay="0.4s">Trening For deg !</h2>
-        <div class="container">
-          <div class="content">
-            <div class="box wow bounceInUp">
-              <div class="inner">
-                <div class="img">
-                  <img src="imgs/about1.jpg" alt="about">
-                </div>
-                <div class="texty">
-                  <h4>Gruppetrening </h4>
-                  <p>Er det vanskelig for deg å finne motivasjon og du liker ikke å trene alene? Gruppetrening vil være den beste løsningen for deg.I gruppetrening finner du mye variasjon, mennesker på ulike nivåer og mye støtte fra deltakere. Vi har alle samme mål! </p>
-                </div>
-              </div>
-            </div>
-            <div class="box wow bounceInUp" data-wow-delay="0.4s">
-              <div class="inner">
-                <div class="img">
-                  <img src="imgs/about2.jpg" alt="about">
-                </div>
-                <div class="texty">
-                  <h4>Individuell trening </h4>
-                  <p>Vi fokuserer 100 % på deg på individuell trening. Etter forhåndsanalyse prøver vi å tilpasse en spesiell treningssyklus for deg. Slik at du får de beste og langvarige resultatene. Klokt, konsekvent og til målet. Ingen har sagt at det blir lett. </p>
-                </div>
-              </div>
-            </div>
-            <div class="box wow bounceInUp" data-wow-delay="0.4s">
-              <div class="inner">
-                <div class="img">
-                  <img src="imgs/about3.jpg" alt="about">
-                </div>
-                <div class="texty">
-                  <h4>Online Trening</h4>
-                  <p>Du har ikke tid, liker du å trene hjemme? Vi har også noe for deg! Treningen arrangeres etter møte og kroppsanalyse. Du bestemmer når og hvor du trener. Jeg er tilgjengelig for deg i de forhåndsavtalte timene. Husk at du gjør det for deg selv! </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jupiter</title>
 
-      
-      
+    <link href="./css/style.css" rel="Stylesheet" />
+  </head>
 
-      
-      
-      
-      <!--Dieta-->
-      
-      
-        <section>
-          <div class="diet-row wow fadeInDown">
-            <div class="diet-col1">
-              <img src="imgs/dieta.jpg" alt="">
-            </div>
-            <div class="diet-col2">
-              <h2>Vi starter vår fysiske form fra kjøkkenet.</h2>
-              <p>En enkel og smakfull diett som er tilberedt av en profesjonell ernæringsfysiolog.
-                Menyen er laget for å være enkel og rask å tilberede.
-                Kostholdet er variert og skreddersydd etter dine preferanser.
-                For å beholde det så lenge som mulig.Du spiser det du liker og går ned i vekt! </p>
-              </div>
-          </div>
-        </div>
-      </section>
-      <!--massage-->
-    <section>
-        <div class="massage-row wow fadeInDown"data-wow-delay="0.4s">
-          <div class="massage-col1">
-            <h2>Fysioterapi er viktig.</h2>
-            <p>
-              Utdannelsen min som fysioterapeut gjør at jeg kan analysere kroppen veldig raskt og finne svakere punkter. Takket være det jobber du ikke bare med din fysiske form, men også med din fysiske helse. Jeg legger stor vekt på en sunn, smidig kropp fri for skader. I en sunn kropp, sunt sinn. .</p>
-        </div>
-          <div class="massage-col2">
-            <img src="imgs/massage.jpg" alt="">
-          </div>
-          </div>
-        </div>
-    </section>
-    <!--Start Gallery-->
-    <section class="gallery" id="gallery">
-      <h2 class="gallery-naglowek">Treningsgalleri</h2>
-      <div class="content">
-        <div class="box wow slideInLeft">
-          <img src="imgs/gallery1.jpg" alt="gallery">
-        </div>
-        <div class="box wow slideInRight">
-          <img src="imgs/gallery2.jpg" alt="gallery">
-        </div>
-        <div class="box wow slideOutLeft">
-          <img src="imgs/gallery3.jpg" alt="gallery">
-        </div>
-        <div class="box wow slideInRight">
-          <img src="imgs/gallery4.jpg" alt="gallery">
-        </div>
-      </div>
-    </section>
-    <!--End Galery-->
-    <!--Start Price-->
-    <section class="price-package" id="price">
-      <div class="container">
-        <h2>Velg den beste pakken for deg. </h2>
-        <p class="title-p"></p>
-      <div class="content">
-        <div class="box wow bounceInUp">
-          <div class="inner">
-            <div class="price-tag">
-              3800 Kr
-            </div>
-            <div class="img">
-              <img src="imgs/price1.jpg" alt="price">
-            </div>
-            <div class="uslugi-text">
-              <h3>Individuell trening</h3> 
-              <p>Trening 3 ganger i uka</p>
-              <p>Treningplan for individuell trening</p>
-              <p>Diagnostikk av kroppen</p>
-              <p>Konsultasjon med trener </p>
-            
-            </div>
-          </div>
-        </div>
-          
-        <div class="box wow bounceInUp" data-wow-delay="0.4s">
-          <div class="inner">
-            <div class="price-tag">
-              7800 Kr
-            </div>
-            <div class="img">
-              <img src="imgs/price2.jpg" alt="price">
-            </div>
-            <div class="uslugi-text">
-              <h3>Individuell trening</h3>
-              <p>Trening 5 ganger i uka</p>
-              <p>Spesialisert individuell treningsplan</p>
-              <p>Diagnostikk</p>
-              <p>Konsultasjoner med trener 3 ganger i måneden </p>
-              <p>Profesjonelt kosthold</p>
-              <p>Rabatt på diett og fysioterapi </p>
-            </div>
-          </div>
-        </div>
-        <div class="box wow bounceInUp" data-wow-delay="0.4s">
-          <div class="inner">
-            <div class="price-tag">
-              12000 Kr
-            </div>
-            <div class="img">
-              <img src="imgs/price3.jpg" alt="price">
-            </div>
-            <div class="uslugi-text">
-              <h3>Individuell trening + fysioterapi</h3>
-              <p>Trening 5 ganger i uke</p>
-              <p>Spesialisert individuell treningsplan</p>
-              <p>Diagnostikk</p>
-              <p>Konsultasjoner med trener 5 ganger i måneden </p>
-              <p>kostholdsplan + 20 % rabatt på kosthold</p>
-              <p>Trening Cardio i Gym</p>
-              <p>Fysioterapi + massasje (2) </p>
-              <p>24 timers kontakt med treneren</p> 
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
-      <!--Start Parallax-->
-    <section >
-      <div id="paralaksik">
-        <div class="text-paralax">
-            <p class="wow slideInLeft">Kjemp for den beste versjonen av deg selv hver dag!</p>
-             <br><p class="wow slideInRight">Bare hardt arbeid vil bringe deg dit du vil! </p>
-        </div>
-      </div>
-  </section>
-  <!--End Parallax-->
-    <!--Contact Footer-->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="content">
-          <div class="box form wow slideInLeft" data-wow-delay="0.4s">
-            <form>
-              <input type="text" placeholder="Enter Name">
-              <input type="text" placeholder="Enter E-mail">
-              <input type="text" placeholder="Enter Mobil">
-              <textarea placeholder="Enter Message"></textarea>
-              <button type="submit">Send Message</button>
-            </form>
-          </div>
-          <div class="box text">
-            <h2>Lets work together !</h2>
-            <ul class="socjale">
-            <li><a href="" class="fab fa-facebook"></a></li>
-                <li><a href="" class="fab fa-instagram"></a></li>
+  <body>
+
+     <!--Nav Big Screen-->
+     <nav>
+      <div class="navbar-container">
+          <img src="./images/nasa.png" alt="Nasa logo" class="logo" >
+              <ul class="navbar-content">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#" >About</a></li>
+                  <li><a href="#" >Solar System</a></li>
+                  <li><a href="#" >Planets</a></li>
+                  <li><a href="#" >Moons</a></li>
               </ul>
-            <div class="info">
-              <ul>
-                <li><i class="icon fas fa-map-marker-alt"></i><span>Stavanger</span></li>
-                <li><i class="icon fas fa-mobile-alt"></i></span>96949596</li>
-                <li><i class="icon far fa-envelope"></i></span>email@gmail.com</li>
+          </div>
+      </div>
+  <!--Navbar Small Screens-->
+
+      <div class="nav-bar-mobile">
+          <div class="container brand-logo"><img  src="./images/nasa.png"></div>
+          <div class="container menuBtn"><img src="images/toggle.png"></div>
+          </div>
+          <div class="mobile-menu">
+
+          <div class="exit"><img src="./images/close.png" alt=""></div>
+          <div class="menu-container">
+              <ul class="nav-list">
+                  <li class="animate-li"><a href="" class="nav-link">Home</a></li>
+                  <li class="animate-li"><a href="" class="nav-link">About</a></li>
+                  <li class="animate-li"><a href="" class="nav-link">Solar System</a></li>
+                  <li class="animate-li"><a href="" class="nav-link">Planets</a></li>
+                  <li class="animate-li"><a href="" class="nav-link">Moons</a></li>
               </ul>
-            </div>
-            <div class="copy">
-              PowerBy &copy; WP
-              </div>
-              
-            </div>
           </div>
-            </div>
           </div>
-        </div>
+      </div>
+  </nav>
+  
+  <!--End of Navbar Small Screens-->
+  
+    <!-- Video background -->
+    <video autoplay loop muted>
+      <source src="./video/Hero-Video.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Navigationn menu -->
+    <nav>
+      <div class="navbar">
+        <a
+          href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/"
+          target="_blank"
+        >
+          <img class="logo" src="images/nasa.png" alt="Nasa Logo"
+        /></a>
+        <ul class="navbar-content">
+          <li><a href="# ">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Solar System</a></li>
+          <li><a href="#">Planets</a></li>
+          <li><a href="#">Moons</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="dropdown">
+      <button class="dropbtn"></button>
+      <div class="dropdown-content">
+        <a>Fifth planet from the Sun and largest planet in the solar system.</a>
+        <a>Got over 80 orbiting moons and possibly many more.</a>
+        <a>Named after the Roman god Jupiter, the king of the gods.</a>
+      </div>
+    </div>
+
+    <!-- Image of Planet -->
+    <section class="hero-section">
+      <img class="jupiter" src="images/jupiter-image.png" />
+
+      <div class="text">
+        <h1 class="info-jupiter">
+          DISCOVER <br />
+          JUPITER
+        </h1>
+
+        <p class="jupiter-text">
+          Jupiter is the fifth planet from the Sun and the largest planet of the
+          Solar System. It is the oldest planet of the Solar System thus it was
+          the first to take shape out of the remains of the solar nebula.
+        </p>
+
+        <button
+          class="read-btn"
+          onclick="window.open('https://solarsystem.nasa.gov/planets/jupiter/overview/','blank')"
+          target="_blank"
+        >
+          Read more
+        </button>
       </div>
     </section>
-<!--End Contact-->
 
-    
+    <!--Js and Library-->
+    <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="./js/index.js"></script>
 
-  <script type="text/javascript">
-    function toggleMenu(){
-      var menuToggle = document.querySelector('.toggle');
-      var banner = document.querySelector('.banner');
-      menuToggle.classList.toggle('active');
-      banner.classList.toggle('active');
-    }
-  </script>
-  <script src="wow.min.js"></script>
-  <script>
-      wow = new WOW(
-        {
-          animateClass: 'animated',
-          offset:       0,
-        }
-      );
-      wow.init();
-    </script>
-</body>
+
+  </body>
 </html>
