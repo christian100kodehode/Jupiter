@@ -1,94 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-    <!--Nav Big Screen-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jupiter</title>
+
+    <link href="./css/style.css" rel="Stylesheet" />
+  </head>
+
+  <body>
+    <!-- Video background -->
+    <video autoplay loop muted>
+      <source src="./video/Hero-Video.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Navigationn menu -->
     <nav>
-        <div class="navbar-container">
-            <img src="./images/nasa.png" alt="Nasa logo" class="logo" >
-                <ul class="navbar-content">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" >About</a></li>
-                    <li><a href="#" >Solar System</a></li>
-                    <li><a href="#" >Planets</a></li>
-                    <li><a href="#" >Moons</a></li>
-                </ul>
-            </div>
-        </div>
-    <!--Navbar Small Screens-->
-
-        <div class="nav-bar-mobile">
-            <div class="container brand-logo"><img  src="./images/nasa.png"></div>
-            <div class="container menuBtn"><img src="images/toggle.png"></div>
-            </div>
-            <div class="mobile-menu">
-
-            <div class="exit"><img src="./images/close.png" alt=""></div>
-            <div class="menu-container">
-                <ul class="nav-list">
-                    <li class="animate-li"><a href="" class="nav-link">Home</a></li>
-                    <li class="animate-li"><a href="" class="nav-link">About</a></li>
-                    <li class="animate-li"><a href="" class="nav-link">Solar System</a></li>
-                    <li class="animate-li"><a href="" class="nav-link">Planets</a></li>
-                    <li class="animate-li"><a href="" class="nav-link">Moons</a></li>
-                </ul>
-            </div>
-            </div>
-        </div>
+      <div class="navbar">
+        <a
+          href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/"
+          target="_blank"
+        >
+          <img class="logo" src="images/nasa.png" alt="Nasa Logo"
+        /></a>
+        <ul class="navbar-content">
+          <li><a href="# ">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Solar System</a></li>
+          <li><a href="#">Planets</a></li>
+          <li><a href="#">Moons</a></li>
+        </ul>
+      </div>
     </nav>
-    
-    <!--End of Navbar Small Screens-->
 
+    <div class="dropdown">
+      <button class="dropbtn"></button>
+      <div class="dropdown-content">
+        <a>Fifth planet from the Sun and largest planet in the solar system.</a>
+        <a>Got over 80 orbiting moons and possibly many more.</a>
+        <a>Named after the Roman god Jupiter, the king of the gods.</a>
+      </div>
+    </div>
 
-    <!--Background Video-->
-    <video src="./video/Hero-Video.mp4" autoplay muted loop type="mp4"></video>
-    
+    <!-- Image of Planet -->
+    <section class="hero-section">
+      <img class="jupiter" src="images/jupiter-image.png" />
 
-    <!--Hero Section-->
-<section class="hero-section ">
-        
-        <div class="hero-text">
-        <h1 class="title">DISCOVER <br>JUPITER</h1>
-        <p class="description">Jupiter is the fifth planet from the Sun and the largest planet of the Solar System. It is the oldest planet of 
-        the Solar System thus it was the first to take shape out of the remains of the solar nebula.</p>
-        <button class="read-btn">Read more </button>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn"></button>
-            <div class="dropdown-content">
-            <p>It’s no secret that Jupiter is the largest planet in the Solar System. But this description really doesn’t do it justice. For one, the mass of Jupiter is 318 times as massive as the Earth.</p>
-            </div>
-            </div>
-            <div class="dropdown1">
-                <button class="dropbtn"></button>
-                <div class="dropdown-content">
-                <p>Jupiter Is The Fastest Spinning Planet In The Solar System</p>
-                </div>
-                </div>
-                <div class="dropdown2">
-                    <button class="dropbtn"></button>
-                    <div class="dropdown-content" style="left:0;">
-                    <p>Jupiter Has 67 Moons.</p>
-                    </div>
-                    </div>
-        
-        
-        
-        <img class="jupiter-planet" src="./images/jupiter-image.png" alt="Jupiter planet">
-        
+      <div class="text">
+        <h1 class="info-jupiter">
+          DISCOVER <br />
+          JUPITER
+        </h1>
+
+        <p class="jupiter-text">
+          Jupiter is the fifth planet from the Sun and the largest planet of the
+          Solar System. It is the oldest planet of the Solar System thus it was
+          the first to take shape out of the remains of the solar nebula.
+        </p>
+
+        <button
+          class="read-btn"
+          onclick="window.open('https://solarsystem.nasa.gov/planets/jupiter/overview/','blank')"
+          target="_blank"
+        >
+          Read more
+        </button>
+      </div>
     </section>
-<!--End of Hero Section-->
-<!--Js and Library-->
-    <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-    <script src="./js/index.js"></script>
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
