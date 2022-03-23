@@ -111,7 +111,7 @@ a:hover {
   background-color: #aa7004cb;
   border-radius: 50%;
   color: white;
-  padding: 8px;
+  padding: 14px;
   font-size: 15px;
   border: none;
 }
@@ -145,7 +145,7 @@ a:hover {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #aa7004cb;
 }
 
 /* Show the dropdown menu on hover */
