@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jupiter</title>
+
+    <link href="./css/style.css" rel="Stylesheet" />
+  </head>
+
+  <body>
+    <!-- Video background -->
+    <video src="video/Hero-video.mp4" autoplay muted loop type="mp4"></video>
+
+    <!-- Navigationn menu -->
+    <nav>
+      <div class="navbar">
+        <a
+          href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/"
+          target="_blank"
+        >
+          <img class="logo" src="images/nasa.png" alt="Nasa Logo"
+        /></a>
+        <ul class="navbar-content">
+          <li><a href="# ">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Solar System</a></li>
+          <li><a href="#">Planets</a></li>
+          <li><a href="#">Moons</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="dropdown">
+      <button class="dropbtn"></button>
+      <div class="dropdown-content">
+        <a>Over 80 moons</a>
+        <a>Info 2</a>
+        <a>Info 3</a>
+      </div>
+    </div>
+
+    <!-- Image of Planet -->
+    <section class="hero-section">
+      <img class="jupiter" src="images/jupiter-image.png" />
+
+      <div class="text">
+        <h1 class="info-jupiter">
+          DISCOVER <br />
+          JUPITER
+        </h1>
+
+        <p class="jupiter-text">
+          Jupiter is the fifth planet from the Sun and the largest planet of the
+          Solar System. It is the oldest planet of the Solar System thus it was
+          the first to take shape out of the remains of the solar nebula.
+        </p>
+
+        <button
+          class="read-btn"
+          onclick="window.open('https://solarsystem.nasa.gov/planets/jupiter/overview/','blank')"
+          target="_blank"
+        >
+          Read more
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
