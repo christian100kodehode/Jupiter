@@ -6,6 +6,10 @@
   line-height: 1.5;
 }
 
+body {
+  background-color: black;
+}
+
 img {
   display: block;
   width: 100%;
@@ -141,7 +145,7 @@ video {
   position: absolute;
   display: inline-block;
   right: 17em;
-  bottom: 5em;
+  bottom: 6em;
 }
 
 .dropdown-content {
